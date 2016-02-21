@@ -9,15 +9,16 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					src: ['index.html','cssmain.css','dep.html'],
+					src: ['cssmain.css'],
 					dest: 'dist/'
 				}]
 			},
 			templated: {
 				files: [{
-					expand: false,
-					src: ['.tmp/jsmain.js'],
-					dest: 'dist/jsmain.js'
+					expand: true,
+					flatten: true,
+					src: ['.tmp/*.js', '.tmp/*.html'],
+					dest: 'dist/'
 				}]
 			}
 		},
@@ -27,7 +28,7 @@ module.exports = function(grunt) {
 						// Task-specific options go here.
 				},
 				// Files to perform replacements and includes with
-				src: 'jsmain.js',
+				src: ['jsmain.js', 'index.html', 'dep.html'],
 				// Destination directory to copy files to
 				dest: '.tmp/'
 			}
