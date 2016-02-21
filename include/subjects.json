@@ -365,7 +365,7 @@
   ],
   "ME22004": [
     "DYNAMICS OF MACHINES",
-    false
+    true
   ],
   "MA61021": [
     "MATHEMATICAL LOGIC",
@@ -1585,7 +1585,7 @@
   ],
   "CS30002": [
     "OPERATING SYSTEMS",
-    false
+    true
   ],
   "MI60038": [
     "PRINCIPLES OF MINERAL PROCESSING",
@@ -4793,7 +4793,7 @@
   ],
   "ME41001": [
     "APPLIED THERMO-FLUIDS I",
-    false
+    true
   ],
   "ME41005": [
     "COMPUTER INTEGRATED DESIGN AND MANUFACTURING",
