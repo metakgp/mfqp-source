@@ -9,7 +9,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					src: ['cssmain.css'],
+					cwd: '.tmp/final',
+					src: ['*.min.css', '*.min.js', '*.html'],
+					flatten: true,
 					dest: 'dist/'
 				}]
 			},
@@ -22,15 +24,45 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
+		cssmin: {
+			target: {
+				files: [{
+					expand: false,
+					src: ['cssmain.css'],
+					dest: '.tmp/final/combined.min.css',
+				}]
+			}
+		},
+		uglify: {
+   	 all_js: {
+      files: {
+        	'.tmp/final/combined.min.js': ['.tmp/templated/jsmain.js']
+      	}
+  	  }
+ 		},
+		htmlmin: {
+			dist: {
+				options: {
+					removeComments: true,
+					collapseWhitespace: true
+				},
+				files: [{
+					expand: true,
+					cwd: '.tmp/templated',
+					src: ['*.html'],
+					dest: '.tmp/final'
+					}]
+				}
+    },
 		includereplace: {
-			build_js: {
+			build_all: {
 				options: {
 						// Task-specific options go here.
 				},
 				// Files to perform replacements and includes with
 				src: ['jsmain.js', 'index.html', 'dep.html'],
 				// Destination directory to copy files to
-				dest: '.tmp/'
+				dest: '.tmp/templated/'
 			}
 		},
 				
@@ -42,7 +74,7 @@ module.exports = function(grunt) {
 		}
 	});
 
-    grunt.registerTask('build', ['clean:dist', 'clean:temp', 'includereplace:build_js', 'copy:dist', 'copy:templated', 'clean:temp']);
+    grunt.registerTask('build', ['clean:dist', 'clean:temp', 'includereplace:build_all', 'htmlmin:dist', 'uglify:all_js', 'cssmin', 'copy:dist', 'clean:temp']);
 
 	require('load-grunt-tasks')(grunt);
 };
