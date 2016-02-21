@@ -27,24 +27,33 @@
 	    <div class="col-md-10 col-md-offset-1">
                 @@include('./include/header.html')
 	    </div>
-	    <div class="row">
-		<div class="col-md-12">
-		    <p id="percentageover" class="jumbo2" style="margin-top: 40px;line-height: 1"></p>
-		    <div id="progressbar"></div>
-
-		    <p><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</p>
-		    <a class="btn btn-default buttonupload" href="@@include('./include/mail-snippet.html')" target="_blank" role="button"style="margin-bottom: 40px;font-size: 25px;background-color: #f1c40f">Upload A Question Paper</a>
-		    <div class="col-md-12">
-			<p id="thanks" style="display: none;background-color: #333333; color: #eeeeee;line-height: 3;border-radius: 15px">Thanks a lot for contributing! We'll verify the upload and update the site soon. Do follow <a href="https://www.facebook.com/metakgp">Metakgp</a> for upcoming projects.</p>
-		    </div>
-		    <div class="row" style="margin-top: 20px">
-			<p style="font-size: 15px">{Click on the departments to see which papers have not yet been uploaded}</p>
-			<div id="donuts"></div>
-		    </div>
-		</div>
-	    </div>
-            @@include('include/footer.html')
+        </div>
+	<div class="row">
+	    <div class="col-md-8 col-md-offset-2">
+                <div class="row" style="margin-top: 2em">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p id="percentageover" class="jumbo2" style="line-height: 1"></p>
+		        <div id="progressbar"></div>
+		        <div><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</div>
+                        @@include('include/upload-button.html')
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-6 col-lg-6" style="border-left: 2px solid #444; padding-left:0px">
+                        <div>
+                            <p>Upload on mobile: <a href="http://tiny.cc/mfqp">tiny.cc/mfqp</a></p>
+                        </div>
+                        <div><img src="images/mfqp_qr.png" style="max-width:50%; max-height:50%"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- <div class="col-md-12">
+	     <p id="thanks" style="display: none;background-color: #333333; color: #eeeeee;line-height: 3;border-radius: 15px">Thanks a lot for contributing! We'll verify the upload and update the site soon. Do follow <a href="https://www.facebook.com/metakgp">Metakgp</a> for upcoming projects.</p>
+	     </div> -->
+	<div class="row" style="margin-top: 20px">
+            <div class="col-md-12">
+		<div id="donuts"></div>
+            </div>
 	</div>
-
+        @@include('include/footer.html')
     </body>
 </html>
