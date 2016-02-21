@@ -3625,7 +3625,7 @@
   ],
   "EC21101": [
     "BASIC ELECTRONICS",
-    false
+    true
   ],
   "GG31009": [
     "METAMORPHIC PETROLOGY",
@@ -5721,7 +5721,7 @@
   ],
   "MA20013": [
     "DISCRETE MATHEMATICS",
-    false
+    true
   ],
   "BT41014": [
     "METABOLIC ENGINEERING",
