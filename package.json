@@ -1,0 +1,29 @@
+{
+  "name": "mfqp-source",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metakgp/mfqp-source.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metakgp/mfqp-source/issues"
+  },
+  "homepage": "https://github.com/metakgp/mfqp-source",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-gh-pages": "^0.9.1",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}
