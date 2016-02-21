@@ -70,6 +70,21 @@ module.exports = function(grunt) {
 				dest: '.tmp/templated/'
 			}
 		},
+		connect: {
+			server: {
+				options: {
+					livereload: true,
+					base: 'dist/',
+					port: 8000
+				}
+			}
+		},
+		watch: {
+			html: {
+				files: ['*.js', '*.css', '**/*.html', '!dist/'],
+				tasks: ['build']
+			}
+		},
 
 		'gh-pages': {
 			options: {
@@ -80,6 +95,11 @@ module.exports = function(grunt) {
 	});
 
     grunt.registerTask('build', ['clean:dist', 'clean:temp', 'includereplace:build_all', 'htmlmin:dist', 'uglify:all_js', 'cssmin', 'copy:dist', 'clean:temp']);
+		grunt.registerTask('serve', [
+		'build',
+		'connect:server',
+		'watch'
+		]);
 
 	require('load-grunt-tasks')(grunt);
 };
