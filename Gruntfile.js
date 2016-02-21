@@ -13,7 +13,12 @@ module.exports = function(grunt) {
 					src: ['*.min.css', '*.min.js', '*.html'],
 					flatten: true,
 					dest: 'dist/'
-				}]
+				}, {
+				    expand: true,
+				    cwd: 'images',
+				    src: ['*'],
+				    dest: 'dist/images'
+                                }]
 			},
 			templated: {
 				files: [{
@@ -65,7 +70,7 @@ module.exports = function(grunt) {
 				dest: '.tmp/templated/'
 			}
 		},
-				
+
 		'gh-pages': {
 			options: {
 				base: 'dist'
