@@ -29,14 +29,15 @@
 	    </div>
 
     </div>
-	<div class="row">
+	<div class="row" id="home">
 	    <div class="col-md-8 col-md-offset-2">
                 <div class="row" style="margin-top: 2em">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <p id="percentageover" class="jumbo2" style="line-height: 1"></p>
 		        <div id="progressbar"></div>
-		        <div><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</div>
-                        @@include('include/upload-button.html')
+		        <div style="font-size: 1em"><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</div>
+		        		@@include('include/upload-button.html')
+                        
                     </div>
                     <div class="hidden-xs hidden-sm col-md-6 col-lg-6" style="border-left: 2px solid #444; padding-left:0px">
                         <div>
@@ -51,6 +52,7 @@
 	     <p id="thanks" style="display: none;background-color: #333333; color: #eeeeee;line-height: 3;border-radius: 15px">Thanks a lot for contributing! We'll verify the upload and update the site soon. Do follow <a href="https://www.facebook.com/metakgp">Metakgp</a> for upcoming projects.</p>
 	     </div> -->
 	<div class="row" style="margin-top: 20px">
+			<p class="hidden-md hidden-lg" style="font-size:0.8em">{Click on the departments below to see the list of subjects and their upload status}</p>
             <div class="col-md-12">
 		<div id="donuts"></div>
             </div>

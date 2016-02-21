@@ -45,8 +45,8 @@ var donutty = function(eleid,arr,key,r1,r2){
 			return statcol[i];
 		});
 	//donutsvg.append('circle').attr('cx',80).attr('cy',100).attr('r',r1-2).attr('fill','#383838');
-	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",r2).attr("class","descrip").style('font-weight',900).attr("class","pointer").text(key);
-	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",1.2*r2+20).attr("class","descrip").style('font-size',30).attr("class","pointer").text(linearScale2(arr[1]).toFixed(0)+"%");
+	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",r2+5).attr("class","descrip").style('font-size',r1).style('font-weight',900).attr("class","pointer").text(key);
+	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",parseInt(1.8*r2)-(5)).attr("class","descrip").style('font-size', r1).attr("class","pointer").text(linearScale2(arr[1]).toFixed(0)+"%");
   //donutsvg.append("text").attr("text-anchor","middle").attr("x",50).attr("y",75).text("collected");
 
   donutsvg.on("click",function(){
@@ -111,9 +111,22 @@ window.onload = function(){
 
   $("#numberover").html(done_no);
   $("#total").html(total_no);
+  var width = parseInt(d3.select('#home').style('width'), 10);
+  var density =  window.devicePixelRatio;
 
+  width = width/density;
+
+  if (width>800){
+    var r1 = 30;
+    var r2 = 50;
+  }
+  else{
+    var r1=90;
+    var r2=120;
+  }
+  
   for(var i=0;i<sorted.length;i++){
-    donutty("donuts",depwise[sorted[i][0]],sorted[i][0],30,50);
+    donutty("donuts",depwise[sorted[i][0]],sorted[i][0],r1,r2);
   }
 
   $(".buttonupload").click(function(){
