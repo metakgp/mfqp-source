@@ -1,56 +1,7 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>metakgp|mfqp</title>
-
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script type="text/javascript" src="jsmain.js"></script>
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="cssmain.css">
-		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,900,700,300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
-
-	</head>
-	<body>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1707720192778020";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<p class="jumbo">The Metakgp Question Paper Collection Drive</p>
-				<p class="descrip" style="color:#222; margin-bottom:0;"><i class="fa fa-cog"></i>     Mid-Semester | Spring | 2016     <i class="fa fa-cog"></i></p>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<p id="percentageover" class="jumbo2" style="margin-top: 40px;line-height: 1"></p>
-					<div id="progressbar"></div>
-
-					<p><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</p>
-					<a class="btn btn-default buttonupload" href="https://mail.google.com/mail/?view=cm&fs=1&to=metakgp@gmail.com&su=Question Papers [Midsem 2016] [Course Name] [Course Code]&body=Hello. Do enter the course name and code in the mail subject. Also attach all pages of the question paper in the same mail. Hope you have a great day!" target="_blank" role="button"style="margin-bottom: 40px;font-size: 25px;background-color: #f1c40f">Upload A Question Paper</a>
-					<div class="col-md-12">	
-						<p id="thanks" style="display: none;background-color: #333333; color: #eeeeee;line-height: 3;border-radius: 15px">Thanks a lot for contributing! We'll verify the upload and update the site soon. Do follow <a href="https://www.facebook.com/metakgp">Metakgp</a> for upcoming projects.</p>
-					</div>
-					<div class="row" style="margin-top: 20px">
-					<p style="font-size: 15px">{Click on the departments to see which papers have not yet been uploaded}</p>
-						<div id="donuts"></div>
-					</div>
-				</div>
-			</div>
-		<div class="fb-like" data-href="http://metakgp.github.io/mfqp-source/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-		<div style="height: 30px"></div>
-		</div>
-
-	</body>
-</html>
+<!DOCTYPE html><html><head><title>metakgp|mfqp</title><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js"></script><script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script><script type="text/javascript" src="combined.min.js"></script><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,900,700,300" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css"><link rel="stylesheet" type="text/css" href="combined.min.css"></head><body><div id="fb-root"></div><script>(function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1707720192778020";
+             fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));</script><div class="row"><div class="col-md-10 col-md-offset-1"><span class="jumbo"><a href="http://metakgp.github.io"><img style="height: 2em; margin-right: 0.5em" src="images/metakgp-logo.png"></a><span style="border-left: 2px solid black; padding-left:0.5em">Question Paper Collection Drive</span></span><p class="descrip" style="color:#222; margin-bottom:0"><i class="fa fa-cog"></i> Mid-Semester | Spring | 2016 <i class="fa fa-cog"></i></p></div><div class="row"><div class="col-md-12"><p id="percentageover" class="jumbo2" style="margin-top: 40px;line-height: 1"></p><div id="progressbar"></div><p><span id="numberover" style="color: red; font-weight: 600"></span> out of <span id="total" style="font-weight: 600"></span> question papers collected</p><a class="btn btn-default buttonupload" href="https://mail.google.com/mail/?view=cm&fs=1&to=metakgp-qp@googlegroups.com&su=Question Papers [Midsem 2016] [Course Name] [Course Code]&body=Hello. Do enter the course name and code in the mail subject. Also attach all pages of the question paper in the same mail. Hope you have a great day!" target="_blank" role="button" style="margin-bottom: 40px;font-size: 25px;background-color: #f1c40f">Upload A Question Paper</a><div class="col-md-12"><p id="thanks" style="display: none;background-color: #333333; color: #eeeeee;line-height: 3;border-radius: 15px">Thanks a lot for contributing! We'll verify the upload and update the site soon. Do follow <a href="https://www.facebook.com/metakgp">Metakgp</a> for upcoming projects.</p></div><div class="row" style="margin-top: 20px"><p style="font-size: 15px">{Click on the departments to see which papers have not yet been uploaded}</p><div id="donuts"></div></div></div></div><div class="footer"><div class="fb-like" data-href="http://metakgp.github.io/mfqp-source/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div><a style="margin-left: 2em" href="https://wiki.metakgp.org/Metakgp:MFQP" target="_blank">Why we're doing this.</a></div></div></body></html>
