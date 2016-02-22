@@ -17,7 +17,7 @@
   ],
   "MA41011": [
     "THEORY OF OPERATING SYSTEMS",
-    false
+    true
   ],
   "MA41010": [
     "NON LINEAR PROGRAMMING",
@@ -3801,7 +3801,7 @@
   ],
   "MA40002": [
     "INTEGRAL EQUATIONS AND VARIATIONAL METHODS",
-    false
+    true
   ],
   "MA40004": [
     "FILE ORGANISATION AND DATA BASE SYSTEMS",
