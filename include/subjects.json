@@ -193,7 +193,7 @@
   ],
   "IM60016": [
     "PRODUCTION DESIGN AND PROCESS PLANNING",
-    false
+    true
   ],
   "ME60004": [
     "ADVANCED WELDING TECHNOLOGY",
@@ -417,7 +417,7 @@
   ],
   "HS31083": [
     "ECONOMIC APPRAISAL OF PROJECTS",
-    false
+    true
   ],
   "CE41024": [
     "AIRPORT AND RAILWAY ENGINEERING",
@@ -437,7 +437,7 @@
   ],
   "HS31084": [
     "ECONOMIC APPRAISAL OF PROJECTS",
-    false
+    true
   ],
   "CE41021": [
     "PAVEMENT MATERIALS",
@@ -1461,7 +1461,7 @@
   ],
   "EE21002": [
     "ELECTRICAL MACHINES",
-    false
+    true
   ],
   "EE21004": [
     "MEASUREMENTS AND ELECTRONIC INSTRUMENTS",
@@ -2169,7 +2169,7 @@
   ],
   "HS20006": [
     "MICRO ECONOMICS-II",
-    false
+    true
   ],
   "HS20007": [
     "MACRO ECONOMICS-I",
@@ -2185,11 +2185,11 @@
   ],
   "HS20008": [
     "MACRO ECONOMICS-II",
-    false
+    true
   ],
   "HS20009": [
     "DEVELOPMENT ECONOMICS",
-    false
+    true
   ],
   "CY11001": [
     "CHEMISTRY",
@@ -3001,7 +3001,7 @@
   ],
   "EC60012": [
     "ADVANCED OPERATING SYSTEM DESIGN",
-    false
+    true
   ],
   "EC60013": [
     "ADVANCED COMPUTER SYSTEM ARCHITECTURE",
@@ -3645,7 +3645,7 @@
   ],
   "GG31006": [
     "IGNEOUS PETROLOGY",
-    false
+    true
   ],
   "MT61146": [
     "ADVANCED ELECTRON MICROSCOPY AND ANALYSIS",
@@ -3805,7 +3805,7 @@
   ],
   "MA40004": [
     "FILE ORGANISATION AND DATA BASE SYSTEMS",
-    false
+    true
   ],
   "MA40009": [
     "NUMBER THEORY",
@@ -3941,7 +3941,7 @@
   ],
   "HS50017": [
     "EQUITY RESEARCH",
-    false
+    true
   ],
   "HS50018": [
     "FIXED INCOME SECURITIES",
@@ -4745,7 +4745,7 @@
   ],
   "MA20106": [
     "PROBABILITY AND STOCHASTIC PROCESSES",
-    false
+    true
   ],
   "MA20107": [
     "MATRIX ALGEBRA",
@@ -5161,7 +5161,7 @@
   ],
   "EP60010": [
     "FINANCING NEW VENTURE",
-    false
+    true
   ],
   "MF41612": [
     "QUANTITY PRODUCTION METHODS",
@@ -5561,7 +5561,7 @@
   ],
   "EP60008": [
     "ECONOMICS OF ENTREPRENEURSHIP",
-    false
+    true
   ],
   "EP60004": [
     "MANUFACTURING MANAGEMENT",
