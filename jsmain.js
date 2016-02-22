@@ -59,7 +59,7 @@ var donutty = function(eleid,arr,key,r1,r2){
 };
 
 // semicolon is there in the included file
-var subjects = @@include("./include/subjects.json")
+var subjects = @@include("./include/subjects.json");
 
 var total_no = Object.keys(subjects).length;
 var done_no=0;
