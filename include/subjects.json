@@ -41,7 +41,7 @@ false
 ], 
 "MA41017": [
 "STOCHASTIC PROCESSES", 
-false
+true
 ], 
 "MI60032": [
 "DRILLING TECHNOLOGY", 
@@ -609,7 +609,7 @@ false
 ], 
 "MA61008": [
 "ARTIFICIAL INTELLIGENCE", 
-false
+true
 ], 
 "MS41006": [
 "BIOMATERIALS", 
@@ -685,7 +685,7 @@ false
 ], 
 "CE21003": [
 "HYDRAULICS", 
-false
+true
 ], 
 "IT60020": [
 "CLOUD COMPUTING", 
@@ -2469,7 +2469,7 @@ false
 ], 
 "MI40036": [
 "ADVANCED QUANTITATIVE DECISION MAKING", 
-false
+true
 ], 
 "CY61020": [
 "RECENT ADVANCES IN ANALYTICAL CHEMISTRY", 
@@ -2793,7 +2793,7 @@ false
 ], 
 "MA60038": [
 "ARTIFICIAL INTELLIGENCE", 
-false
+true
 ], 
 "NA21001": [
 "MARINE HYDRODYNAMICS", 
