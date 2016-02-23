@@ -3270,10 +3270,7 @@
     "APPROPRIATE BUILDING TECHNOLOGIES",
     false
   ],
-  "BT60002": [
-    "RECOMBINANT DNA TECHNOLOGY",
-    false
-  ],
+  "BT60002": true,
   "CH62050": [
     "HAZARDOUS WASTE TREATMENT AND MANAGEMENT",
     false
