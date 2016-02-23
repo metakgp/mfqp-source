@@ -681,7 +681,7 @@ false
 ], 
 "CE21004": [
 "STRUCTURAL ANALYSIS", 
-false
+true
 ], 
 "CE21003": [
 "HYDRAULICS", 
@@ -1177,7 +1177,7 @@ false
 ], 
 "MF30003": [
 "ROBOTS AND COMPUTER CONTROLLED MACHINES", 
-false
+true
 ], 
 "AG60154": [
 "NON-POINT SOURCE POLLUTION AND MANAGEMENT", 
@@ -1993,7 +1993,7 @@ false
 ], 
 "NT70002": [
 "INTRODUCTION TO NANO-SCIENCE AND TECHNOLOGY", 
-false
+true
 ], 
 "AR32008": [
 "ENERGY EFFICIENT DESIGN", 
@@ -2997,7 +2997,7 @@ false
 ], 
 "ME60404": [
 "LUBRICATION AND ROTOR DYNAMICS", 
-false
+true
 ], 
 "PH41008": [
 "MATHEMATICAL METHODS -II", 
@@ -3021,7 +3021,7 @@ false
 ], 
 "ME60430": [
 "MECHANICS OF HUMAN BODY", 
-false
+true
 ], 
 "ME60144": [
 "METAL CASTING TECHNOLOGY", 
@@ -3317,7 +3317,7 @@ false
 ], 
 "MI40004": [
 "MINE SAFETY AND LEGISLATION", 
-false
+true
 ], 
 "EE60062": [
 "DIGITAL IMAGE PROCESSING", 
@@ -3385,6 +3385,6 @@ false
 ],
 "ES60008": [
 "SYSTEMS METABOLIC ENGINEERING FOR BIOFUELS", 
-false
+true
 ]
 }
