@@ -53,7 +53,7 @@
   ],
   "MI60035": [
     "PRINCIPLES OF MINE PLANNING",
-    false
+    true
   ],
   "CS30002": [
     "OPERATING SYSTEMS",
@@ -305,7 +305,7 @@
   ],
   "CH31010": [
     "MASS TRANSFER II",
-    false
+    true
   ],
   "EC60012": [
     "ADVANCED OPERATING SYSTEM DESIGN",
@@ -621,7 +621,7 @@
   ],
   "CH21008": [
     "CHEMICAL ENGINEERING THERMODYNAMICS",
-    false
+    true
   ],
   "ME60412": [
     "TRIBOLOGY",
@@ -961,7 +961,7 @@
   ],
   "CS60008": [
     "INTERNET ARCHITECTURE AND PROTOCOLS",
-    false
+    true
   ],
   "AG31008": [
     "POST HARVEST ENGINEERING",
@@ -1146,7 +1146,7 @@
   ],
   "CH42006": [
     "COMPUTER METHODS IN CHEM. ENGG.",
-    false
+    true
   ],
   "AG40024": [
     "ENVIRONMENTAL BIOTECHNOLOGY",
@@ -1827,7 +1827,7 @@
   ],
   "CH30014": [
     "CHEMICAL PROCESS TECHNOLOGY",
-    false
+    true
   ],
   "IM61023": [
     "RECOMMENDER SYSTEM IN E-BUSINESS",
@@ -1875,11 +1875,11 @@
   ],
   "CS60003": [
     "HIGH PERFORMANCE IN COMPUTER ARCHITECTURE",
-    false
+    true
   ],
   "CS60002": [
     "DISTRIBUTED SYSTEMS",
-    false
+    true
   ],
   "BT31014": [
     "IMMUNOLOGY",
@@ -2955,7 +2955,7 @@
   ],
   "CS41004": [
     "HIGH PERFORMANCE COMPUTER ARCHITECTURE",
-    false
+    true
   ],
   "TE61002": [
     "MIMO COMMUNICATIONS",
@@ -2987,7 +2987,7 @@
   ],
   "ME60407": [
     "FINITE ELEMENT METHODS IN ENGINEERING",
-    false
+    true
   ],
   "ME60404": [
     "LUBRICATION AND ROTOR DYNAMICS",
@@ -3164,7 +3164,7 @@
   ],
   "BT41014": [
     "METABOLIC ENGINEERING",
-    false
+    true
   ],
   "BT41016": [
     "FOOD BIOTECHNOLOGY",
@@ -3184,7 +3184,7 @@
   ],
   "IM21008": [
     "WORK SYSTEM DESIGN",
-    false
+    true
   ],
   "EX41004": [
     "NUCLEAR GEOPHYSICS",
@@ -3366,7 +3366,7 @@
   ],
   "ME41606": [
     "FINITE ELEMENT METHODS IN ENGINEERING",
-    false
+    true
   ],
   "ES60008": [
     "SYSTEMS METABOLIC ENGINEERING FOR BIOFUELS",
