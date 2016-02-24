@@ -46,7 +46,7 @@ var donutty = function(eleid,arr,key,r1,r2){
 		});
 	//donutsvg.append('circle').attr('cx',80).attr('cy',100).attr('r',r1-2).attr('fill','#383838');
 	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",r2+5).attr("class","descrip").style('font-size',r1).style('font-weight',900).attr("class","pointer").text(key);
-	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",parseInt(1.8*r2)-(5)).attr("class","descrip").style('font-size', r1).attr("class","pointer").text(linearScale2(arr[1]).toFixed(0)+"%");
+	donutsvg.append("text").attr("text-anchor","middle").attr("x",r2).attr("y",parseInt(1.5*r2)-(5)).attr("class","descrip").style('font-size', r1).attr("class","pointer").text(linearScale2(arr[1]).toFixed(0)+"%");
   //donutsvg.append("text").attr("text-anchor","middle").attr("x",50).attr("y",75).text("collected");
 
   donutsvg.on("click",function(){
