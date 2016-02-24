@@ -2,7 +2,7 @@
 
 require 'json'
 
-subjects = JSON.parse(File.read("../include/subjects.json"))
+subjects = JSON.parse(File.read("./subjects.json"))
 departments = JSON.parse(File.read("./departments.json"))
 
 filename_regex = /(mid|end)-(spring|autumn)-([0-9]{4})-([A-Z]{2})([0-9]{5}).pdf/

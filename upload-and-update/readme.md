@@ -11,7 +11,7 @@
 #### TODO
 
 - [ ] Update the departments.json file
-- [ ] Update the subjects.json file in this directory to the one that contains
+- [x] Update the subjects.json file in this directory to the one that contains
 all the subjects (both even and odd semesters)
 - [ ] Inside the script, update mfqp json.
 - [ ] Mention the assumption regarding directory structure that has been taken
