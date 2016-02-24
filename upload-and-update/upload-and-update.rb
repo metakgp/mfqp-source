@@ -4,6 +4,8 @@ require 'json'
 
 subjects = JSON.parse(File.read("./subjects.json"))
 departments = JSON.parse(File.read("./departments.json"))
+mfqp_json_path = "../../mfqp/data.json"
+mfqp_data = JSON.parse(File.read(mfqp_json_path))
 
 filename_regex = /(mid|end)-(spring|autumn)-([0-9]{4})-([A-Z]{2})([0-9]{5}).pdf/
 uploading_result_regex = /Id: (.*)/
@@ -51,5 +53,12 @@ for i in ARGV
 		paperObj = { "Department" => department, "Semester" => semester, "Paper" => paper, "Link" => link, "Year" => year }
 
 		puts paperObj
+
+		mfqp_data.push(paperObj)
+
+		puts "Added to the object"
 	end
 end
+
+File.delete(mfqp_json_path)
+File.open(mfqp_json_path, "w") { |file| file.write(JSON.generate(mfqp_data)) }
