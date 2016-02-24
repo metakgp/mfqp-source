@@ -1665,10 +1665,7 @@
     "GENERAL THEORY OF RELATIVITY",
     false
   ],
-  "EE30004": [
-    "EMBEDDED SYSTEMS",
-    false
-  ],
+  "EE30004": true,
   "CS60078": [
     "COMPLEX NETWORK THEORY",
     false
@@ -1993,10 +1990,7 @@
     "ENERGY EFFICIENT DESIGN",
     false
   ],
-  "CS43002": [
-    "DATABASE MANAGEMENT SYSTEMS",
-    false
-  ],
+  "CS43002": true,
   "HS31074": [
     "CLASSICAL POLITICAL ECONOMY",
     false
@@ -2169,10 +2163,7 @@
     "PHYSICS OF SURFACES AND INTERFACES",
     false
   ],
-  "EC31008": [
-    "DIGITAL SIGNAL PROCESSING",
-    false
-  ],
+  "EC31008": true,
   "PH60104": [
     "A VIEW OF CONDENSED MATTER PHYSICS - MODERN CONCEPTS",
     false
@@ -2193,22 +2184,13 @@
     "MESOSCOPIC PHYSICS",
     false
   ],
-  "EC31002": [
-    "DIGITAL COMMUNICATION",
-    false
-  ],
+  "EC31002": true,
   "EC31001": [
     "ANALOG COMMUNICATION",
     false
   ],
-  "EC31006": [
-    "MICROCONTROLLER AND EMBEDDED SYSTEMS",
-    false
-  ],
-  "EC31004": [
-    "VLSI ENGG.",
-    false
-  ],
+  "EC31006": true,
+  "EC31004": true,
   "PH41012": [
     "COMPUTATIONAL METHODS",
     false
@@ -2341,10 +2323,7 @@
     "ENVIRONMENTAL ACCOUNTING",
     false
   ],
-  "AE40018": [
-    "INTRODUCTION TO TURBULENCE",
-    false
-  ],
+  "AE40018": true,
   "NA31002": [
     "MARINE DESIGN",
     false
