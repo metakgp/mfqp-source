@@ -743,6 +743,14 @@
     "FIELD WORK",
     false
   ],
+  "EX60014":[
+    "Groundwater Exploration and Management",
+    true
+  ],
+  "EX60032":[
+    "Engineering Properties of Rocks and Soils",
+    true
+  ],
   "PH60409": [
     "STATISTICAL STUDIES OF COMPLEX SYSTEM",
     false
@@ -1889,7 +1897,7 @@
   ],
   "BT31014": [
     "IMMUNOLOGY",
-    false
+    true
   ],
   "EP60010": [
     "FINANCING NEW VENTURE",
