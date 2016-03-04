@@ -1,7 +1,7 @@
 {
   "TE60114": [
     "BROADBAND ACCESS NETWORKS",
-    false
+    true
   ],
   "MI60046": [
     "QUALITY ASSURANCE",
@@ -153,7 +153,7 @@
   ],
   "MA30002": [
     "MODERN ALGEBRA",
-    false
+    true
   ],
   "IM60052": [
     "LOGISTICS AND SUPPLY CHAIN MANAGEMENT",
@@ -789,7 +789,7 @@
   ],
   "PH60402": [
     "BIOPHYSICS",
-    false
+    true
   ],
   "CS60086": [
     "SELECTED TOPICS IN ALGORITHMS",
@@ -1093,7 +1093,7 @@
   ],
   "CH61012": [
     "ADVANCED MASS TRANSFER",
-    false
+    true
   ],
   "EE60006": [
     "ROBUST CONTROL",
@@ -2857,7 +2857,7 @@
   ],
   "CH62052": [
     "INSTABILITY AND PATTERNING IN THIN POLYMER FILM",
-    false
+    true
   ],
   "MI62004": [
     "COMPUTATIONAL GEOMECHANICS",
