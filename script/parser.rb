@@ -35,6 +35,10 @@ def parse_subject(subject)
 	# CS 30002 -> CS30002
 	code = code.split.join.upcase
 
+	if not code.match(/[A-Z]{2}[0-9]{5}/)
+		return nil
+	end
+
 	return {:exam => exam,
 		:subject => subject,
 		:code => code,
@@ -46,12 +50,12 @@ def send_reply(email)
 end
 
 def create_filename(parsed_subject, original_filename)
-	# assume that the default semester is mid-spring-2016
-	return "#{parsed_subject[:exam]}-spring-#{parsed_subject[:year]}-#{parsed_subject[:code].upcase}.#{original_filename.split(".")[-1]}"
+	# assume that the default semester is mid-spring-2016, or end-autumn-2015
+	# these two are the most common papers that were contributed
+	return "#{parsed_subject[:exam]}-#{(parsed_subject[:exam] == "mid") ? "spring" : "autumn"}-#{parsed_subject[:year]}-#{parsed_subject[:code].upcase}.#{original_filename.split(".")[-1]}"
 end
 
 def create_unique_filename(parsed_subject, original_filename, file_contents)
-	# assume that the default semester is mid-spring-2016
 	non_unique_filename = create_filename(parsed_subject, original_filename)
 	return "#{non_unique_filename.split('.')[0]}-#{Digest::SHA256.hexdigest(file_contents)[0,10]}.#{non_unique_filename.split('.')[-1]}"
 end
