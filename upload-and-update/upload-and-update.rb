@@ -7,6 +7,7 @@ departments = JSON.parse(File.read("./departments.json"))
 mfqp_json_path = "../../mfqp/data.json"
 mfqp_data = JSON.parse(File.read(mfqp_json_path))
 
+# file name format: mid-spring-2014-CS30002.pdf
 filename_regex = /(mid|end)-(spring|autumn)-([0-9]{4})-([A-Z]{2})([0-9]{5}).pdf/
 uploading_result_regex = /Id: (.*)/
 
