@@ -12,7 +12,8 @@ p gmail.inbox.emails(:to => 'metakgp-qp@googlegroups.com').count
 
 # constants
 PRODUCTION = false
-DATE_AFTER = Date.parse("2016-02-24") # rise of the bot
+DATE_AFTER = Date.parse("2016-02-21") # rise of the bot
+DATE_BEFORE = Date.parse("2016-02-24")
 
 EMAIL_REGEX = /\[((\w+\s*)+)\]/
 
@@ -60,7 +61,7 @@ def create_unique_filename(parsed_subject, original_filename, file_contents)
 	return "#{non_unique_filename.split('.')[0]}-#{Digest::SHA256.hexdigest(file_contents)[0,10]}.#{non_unique_filename.split('.')[-1]}"
 end
 
-gmail.inbox.emails(:to => 'metakgp-qp@googlegroups.com', :after => DATE_AFTER) do |email|
+gmail.inbox.emails(:to => 'metakgp-qp@googlegroups.com', :after => DATE_AFTER, :before => DATE_BEFORE) do |email|
 
 	# move emails to new label 
 	if PRODUCTION
