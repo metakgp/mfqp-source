@@ -6,19 +6,8 @@
 `$PATH` env variable.
 - You can download the binary for your computer from [here](https://github.com/prasmussen/gdrive#downloads)
 - You need to have ruby 2.1.7+ installed on your computer.
-- You can run the script as `ruby upload-and-update.rb path-to-paper.pdf`
+- You can run the script as `ruby upload-and-update.rb path-to-mfqp-json.json path-to-paper.pdf`
 - File name format: `mid-spring-2014-CS30002.pdf`
-
-**Directory Structure:**
-
-```shell
-  - parent/
-    -> mfqp/
-      -> data.json
-    -> mfqp-source/
-      -> upload-and-update/
-			  -> upload-and-update.rb # script
-```
 
 #### TODO
 
