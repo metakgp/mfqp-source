@@ -4,7 +4,7 @@ require 'json'
 
 subjects = JSON.parse(File.read("./subjects.json"))
 departments = JSON.parse(File.read("./departments.json"))
-mfqp_json_path = "../../mfqp/data.json"
+mfqp_json_path = ARGV[0].to_s
 mfqp_data = JSON.parse(File.read(mfqp_json_path))
 
 # file name format: mid-spring-2014-CS30002.pdf
