@@ -4,9 +4,7 @@ require 'fileutils'
 
 Dotenv.load
 
-gmail = Gmail.connect(:xoauth2,
-											ENV["EMAIL"],
-											ENV["OAUTH_TOKEN"])
+gmail = Gmail.connect(:xoauth2, ENV["EMAIL"], ENV["OAUTH_TOKEN"])
 
 p gmail.inbox.emails(:to => 'metakgp-qp@googlegroups.com').count
 
@@ -17,7 +15,8 @@ DATE_BEFORE = Date.parse("2016-02-24")
 
 EMAIL_REGEX = /\[((\w+\s*)+)\]/
 
-	FileUtils.mkdir_p("data/pdf")
+
+FileUtils.mkdir_p("data/pdf")
 FOLDER = File.join(Dir.pwd, 'data')
 PDF_FOLDER = File.join(Dir.pwd, 'data/pdf')
 
