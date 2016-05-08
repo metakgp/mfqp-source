@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'dotenv'
+Dotenv.load
+
+PARENT_FOLDER_ID=ENV["PARENT_FOLDER_ID"]
 
 subjects = JSON.parse(File.read("./subjects.json"))
 departments = JSON.parse(File.read("./departments.json"))
@@ -30,7 +34,7 @@ for i in ARGV
 
 		# upload the file to drive
 
-		uploading = `drive upload -f #{filename}`
+		uploading = `drive upload --parent #{PARENT_FOLDER_ID} -f #{filename}`
 
 		puts uploading
 		puts uploading.split("\n")[0]
