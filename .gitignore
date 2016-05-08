@@ -2,3 +2,9 @@ node_modules
 dist
 .grunt
 result.json
+.env
+.DS_Store
+data/
+vendor
+*.swp
+.bundle
