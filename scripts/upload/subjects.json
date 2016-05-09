@@ -5850,5 +5850,9 @@
   "ME41603": [
     "VIBRATION AND NOISE CONTROL",
     false
+  ],
+  "IP60102": [
+    "COPYRIGHT LAW",
+    true
   ]
 }
