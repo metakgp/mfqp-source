@@ -55,7 +55,7 @@ for i in ARGV
 
 		link = preview_url.chomp
 
-		paperObj = { "Department" => department, "Semester" => semester, "Paper" => paper, "Link" => link, "Year" => year }
+		paperObj = { "Department" => department, "Semester" => semester, "Paper" => paper, "Link" => link, "Year" => year.to_s }
 
 		puts paperObj
 
