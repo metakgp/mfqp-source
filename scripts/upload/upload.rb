@@ -11,6 +11,9 @@ departments = JSON.parse(File.read("./departments.json"))
 mfqp_json_path = ARGV[0].to_s
 mfqp_data = JSON.parse(File.read(mfqp_json_path))
 
+# subjects not there in the subjects.json file
+unidentified_subjects = [ ]
+
 # file name format: mid-spring-2014-CS30002.pdf
 filename_regex = /(mid|end)-(spring|autumn)-([0-9]{4})-([A-Z]{2})([0-9]{5}).pdf/
 uploading_result_regex = /Id: (.*)/
@@ -31,6 +34,15 @@ for i in ARGV
 
 		department = departments[department_code].downcase
 		paper = subjects[subject_code][0].downcase
+
+		if paper == nil
+			# this file name has a subject code which is not there in the subjects.json
+			# file. Probably have to add a node in that file.
+			puts "#{filename} has a subject code that's not there in subjects.json"
+			unidentified_subjects.push(filename)
+			next
+		end
+
 
 		# upload the file to drive
 
@@ -67,3 +79,11 @@ end
 
 File.delete(mfqp_json_path)
 File.open(mfqp_json_path, "w") { |file| file.write(JSON.generate(mfqp_data)) }
+
+if unidentified_subjects.length > 0
+	File.open("failed.txt", "w") { |file| file.write(unidentified_subjects.join("\n")) }
+	puts "Check the file failed.txt for a list of all the PDF names with unidentified subject codes"
+	puts "Add these subject codes to the subjects.json file, and run this script again."
+	puts "Be sure to remove all the PDF files that have already been uploaded."
+end
+
