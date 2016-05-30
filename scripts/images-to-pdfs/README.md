@@ -27,4 +27,12 @@ EXECUTING THE SCRIPT
 Type the following commands in your terminal :
 <pre>cd path-to-script-repository</pre>
 <pre>ruby images-to-pdfs.rb /home/user/path-to-QP-images-directory</pre>
+
+CALLING THIS SCRIPT FROM PARSER SCRIPT
+--------------------------------------
+(Make sure that you've copy pasted the images to the question-papers/images/ folder of this repository. PDFs will be obtained in the question-papers/pdfs/ folder.)
+Then , make these changes in the parser script
+<pre>require_relative '../images2pdfs/images2pdfs'</pre>
+<pre>convert(images_directory)</pre>
+
 Bugs & Bug-fixes are always appreciated! 
