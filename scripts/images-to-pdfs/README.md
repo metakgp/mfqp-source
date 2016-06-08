@@ -30,9 +30,9 @@ Type the following commands in your terminal :
 
 CALLING THIS SCRIPT FROM PARSER SCRIPT
 --------------------------------------
-(Make sure that you've copy pasted the images to the question-papers/images/ folder of this repository. PDFs will be obtained in the question-papers/pdfs/ folder.)
+(Make sure that the images directory exists & has images. If pdfs directory doesn't exist , dont worry - a directory will be created in that path.)
 Then , make these changes in the parser script
-<pre>require_relative '../images2pdfs/images2pdfs'</pre>
-<pre>convert(images_directory)</pre>
+<pre>require_relative '../images-to-pdfs/images-to-pdfs'</pre>
+<pre>convert(images_directory,pdfs_directory)</pre>
 
-Bugs & Bug-fixes are always appreciated! 
+Bugs & bug-fixes are always appreciated! 
