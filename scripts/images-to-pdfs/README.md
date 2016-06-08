@@ -21,13 +21,6 @@ Run these 2 commands (in the given order) in the terminal for the installation o
 <pre> (2) gem install rmagick </pre>
 All set!
 
-EXECUTING THE SCRIPT
---------------------
-
-Type the following commands in your terminal :
-<pre>cd path-to-script-repository</pre>
-<pre>ruby images-to-pdfs.rb /home/user/path-to-QP-images-directory</pre>
-
 CALLING THIS SCRIPT FROM PARSER SCRIPT
 --------------------------------------
 (Make sure that the images directory exists & has images. If pdfs directory doesn't exist , dont worry - a directory will be created in that path.)
