@@ -14,7 +14,7 @@ def convert images_directory , pdfs_directory
     all_images = Dir.entries(images_directory)
 
     #Segregate only the required the question paper images , just in case the directory contains other files
-    starting = %w[mid- end-]
+    starting = %w[mid-spring- mid-autumn- end-spring- end-autumn-]
     ending = %w[.jpg .png .tif .gif .svg .bmp]
     all_images.keep_if { |a| (a.start_with? *starting) && (a.end_with? *ending)}
 
