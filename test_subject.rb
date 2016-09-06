@@ -44,5 +44,6 @@ test_obj = JSON.parse(File.read("./include/subjects.json"))
 `git checkout #{master_branch}`
 master_obj = JSON.parse(File.read("./include/subjects.json"))
 `git checkout #{test_branch}`
+puts "\n"
 show_changes(master_obj,test_obj)
 puts "\n"
