@@ -3394,5 +3394,41 @@
   "ES60008": [
     "SYSTEMS METABOLIC ENGINEERING FOR BIOFUELS",
     true
+  ],
+  "CE21005": [
+    "SOLID MECHANICS",
+    true
+  ],
+  "GG21109": [
+    "ENGINEERING & ECONOMIC GEOLOGY",
+    false
+  ],
+  "MI20101": [
+    "DEVELOPMENT OF MINERAL DEPOSITS",
+    false
+  ],
+  "MI21007": [
+    "ELEMENTS OF ROCK MECHANICS",
+    false
+  ],
+  "MI30013": [
+    "MINING MECHINERY",
+    false
+  ],
+  "MI31001": [
+    "UNDERGROUND COAL MINING",
+    false
+  ],
+  "MI31003": [
+    "UNDERGROUND METAL MINING",
+    false
+  ],
+  "MI31005": [
+    "VENTILATION AND CLIMATE CONTROL",
+    false
+  ],
+  "MI31007": [
+    "QUANTITATIVE DECISION MAKING",
+    false
   ]
 }
