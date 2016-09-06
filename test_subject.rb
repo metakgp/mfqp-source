@@ -17,10 +17,12 @@ def show_changes master_hash , test_hash
         master_values , test_values = master_hash.values , test_hash.values
 
         test_hash.each do |k,v|
-            if master_keys.include? k && master_values[master_keys.find_index(k)] == test_hash[k]
-                # Means - no change to individual record
-            elsif master_keys.include? k && master_values[master_keys.find_index(k)] != test_hash[k] 
-                puts "Subject #{k} : Modified." 
+            if master_keys.include? k 
+                if master_values[master_keys.find_index(k)] == test_hash[k]
+                     # Means - no change to individual record
+                else
+                    puts "Subject #{k} : Modified." 
+                end
             else
                 puts "Subject #{k} : Added."
             end
