@@ -1,0 +1,862 @@
+{
+    "AE21001": [
+        "INTRODUCTION TO AERODYNAMICS",
+        false
+    ],
+    "AE21003": [
+        "DYNAMICS FOR AEROSPACE ENGINEERS",
+        false
+    ],
+    "AE31001": [
+        "THERMODYNAMICS & AEROSPACE PROP.SYSTEM",
+        false
+    ],
+    "AE31007": [
+        "MECHANICS OF FLIGHT",
+        false
+    ],
+    "AE31009": [
+        "AEROSPACE STRUCTURAL ANALYSIS",
+        false
+    ],
+    "AE31103": [
+        "HIGH SPEED AERODYNAMICS",
+        false
+    ],
+    "AG20101": [
+        "CROP PRODUCTION TECHNOLOGY",
+        false
+    ],
+    "AG20103": [
+        "SOIL TECHNOLOGY",
+        false
+    ],
+    "AG31001": [
+        "AGRICULTURAL MACHINERY",
+        false
+    ],
+    "AG31003": [
+        "LAND & WATER RESOURCES ENGINEERING",
+        false
+    ],
+    "AG31005": [
+        "PRINCIPLES OF FOOD ENGINEERING",
+        false
+    ],
+    "AG31007": [
+        "THEORY & DESIGN OF MACHINE ELEMENTS",
+        false
+    ],
+    "AG40011": [
+        "TUBEWELLS AND PUMPS",
+        false
+    ],
+    "AR12003": [
+        "INTRODUCTION TO ARCHITECTURE",
+        false
+    ],
+    "AR32001": [
+        "DEVELOPMENT OF CONTEMPORARY ARCHITECTURE",
+        false
+    ],
+    "AR32003": [
+        "SPECIFICATION",
+        false
+    ],
+    "AR40023": [
+        "BUILDING ACOUSTICS",
+        false
+    ],
+    "BS20001": [
+        "SCIENCE OF LIVING SYSTEM",
+        false
+    ],
+    "CE20006": [
+        "WATER RESOURCES ENGG.",
+        false
+    ],
+    "CE20101": [
+        "INTRODUCTION TO CIVIL ENGG. & MATERIALS",
+        false
+    ],
+    "CE20103": [
+        "TRANSPORTATION ENGG.",
+        false
+    ],
+    "CE20105": [
+        "SURVEYING",
+        false
+    ],
+    "CE21005": [
+        "SOLID MECHANICS",
+        false
+    ],
+    "CE31001": [
+        "DESIGN OF RC STRUCTURE",
+        false
+    ],
+    "CE31003": [
+        "SOIL MECHANICS",
+        false
+    ],
+    "CE31005": [
+        "WATER AND W.W. ENGINEERING",
+        false
+    ],
+    "CE31216": [
+        "CONSTRUCTION PLANNING AND MANAGEMENT",
+        false
+    ],
+    "CE41003": [
+        "STRUCTURAL DYNAMICS & EARTHQUAKE ENGG.",
+        false
+    ],
+    "CE61003": [
+        "BRIDGE ENGINEERING",
+        false
+    ],
+    "CH21103": [
+        "CHEMICAL PROCESS CALCULATIONS",
+        false
+    ],
+    "CH31001": [
+        "MASS TRANSFER I",
+        false
+    ],
+    "CH31007": [
+        "MECHANICAL OPERATIONS",
+        false
+    ],
+    "CH31009": [
+        "REACTION ENGINEERING",
+        false
+    ],
+    "CH31011": [
+        "INSTRUMENTATION & PROCESS CONTROL",
+        false
+    ],
+    "CH40001": [
+        "BIOCHEMICAL ENGINEERING",
+        false
+    ],
+    "CH61011": [
+        "ADVANCED FLUID DYNAMICS",
+        false
+    ],
+    "CH61015": [
+        "ADVANCED MATHEMATICAL TECHNIQUES IN",
+        false
+    ],
+    "CH62009": [
+        "PETROLEUM REFINERY ENGINEERING",
+        false
+    ],
+    "CS10001": [
+        "PROGRAMMING AND DATA STRUCTURES",
+        false
+    ],
+    "CS11001": [
+        "PROGRAMMING AND DATA STRUCTURE",
+        false
+    ],
+    "CS21001": [
+        "DISCRETE STRUCTURES",
+        false
+    ],
+    "CS21003": [
+        "ALGORITHMS - I",
+        false
+    ],
+    "CS31003": [
+        "COMPILERS",
+        false
+    ],
+    "CS31005": [
+        "ALGORITHMS -II",
+        false
+    ],
+    "CS31007": [
+        "COMPUTER ORGANIZATION & ARCHITECTURE",
+        false
+    ],
+    "CS40003": [
+        "DATA ANALYTICS",
+        false
+    ],
+    "CS40019": [
+        "IMAGE PROCESSING",
+        false
+    ],
+    "CS41001": [
+        "THEORY OF COMPUTATION",
+        false
+    ],
+    "CS60005": [
+        "FOUNDATIONS OF COMPUTING SCIENCE",
+        false
+    ],
+    "CS60007": [
+        "ALGORITHM DESIGN AND ANALYSIS",
+        false
+    ],
+    "CS60026": [
+        "PARALLEL & DISTRIBUTED ALGORITHMS",
+        false
+    ],
+    "CS60045": [
+        "ARTIFICIAL INTELLIGENCE",
+        false
+    ],
+    "CS60047": [
+        "ADVANCED GRAPH THEORY",
+        false
+    ],
+    "CS60050": [
+        "MACHINE LEARNING",
+        false
+    ],
+    "CS60057": [
+        "SPEECH & NATURAL LANG. PROCESSING",
+        false
+    ],
+    "CS60059": [
+        "OBJECT ORIENTED SYSTEMS",
+        false
+    ],
+    "CY00001": [
+        "PREPARATORY CHEMISTRY",
+        false
+    ],
+    "CY11001": [
+        "CHEMISTRY",
+        false
+    ],
+    "CY40014": [
+        "INTRODUCTION TO COMPUTATIONAL CHEMISTRY",
+        false
+    ],
+    "CY41005": [
+        "INORGANIC CHEMISTRY: PRINCIPLE,STRUCTURE &",
+        false
+    ],
+    "CY41007": [
+        "GROUP THEORY FOR CHEMISTS",
+        false
+    ],
+    "CY41009": [
+        "INTRODUCTION TO QUANTUM CHEMISTRY &",
+        false
+    ],
+    "CY41011": [
+        "PRINCIPLES OF ORGANIC SYNTHESIS",
+        false
+    ],
+    "CY51003": [
+        "SPECTROSCOPIC METHODS OF STRUCTURE",
+        false
+    ],
+    "CY60003": [
+        "ORGANIC PHOTOCHEMISTRY AND  PERICYCLIC",
+        false
+    ],
+    "EC21005": [
+        "NETWORK THEORY",
+        false
+    ],
+    "EC21101": [
+        "BASIC ELECTRONICS",
+        false
+    ],
+    "EC21103": [
+        "INTRODUCTION TO ELECTRONICS",
+        false
+    ],
+    "EC21107": [
+        "SEMICONDUCTOR DEVICES",
+        false
+    ],
+    "EC31001": [
+        "ANALOG COMMUNICATION",
+        false
+    ],
+    "EC31003": [
+        "DIGITAL ELECTRONIC CIRCUITS S302",
+        false
+    ],
+    "EC31005": [
+        "RF & MICROWAVE ENGINEERING",
+        false
+    ],
+    "EC60011": [
+        "DATA STRUCTURE & OBJECT REPRESENTATION",
+        false
+    ],
+    "EC60091": [
+        "MACHINE INTELLIGENCE & EXPERT SYSTEMS",
+        false
+    ],
+    "EC60291": [
+        "ARCHITECTURAL DESIGN OF ICS",
+        false
+    ],
+    "EC60501": [
+        "DIGITAL IMAGE PROCESSING",
+        false
+    ],
+    "EC60503": [
+        "EMBEDDED SYSTEMS DESIGN NR322",
+        false
+    ],
+    "EE11001": [
+        "ELECTRICAL TECHNOLOGY",
+        false
+    ],
+    "EE21101": [
+        "SIGNALS & NETWORKS",
+        false
+    ],
+    "EE30024": [
+        "ILLUMINATION AND ELECTRICAL SERVICES",
+        false
+    ],
+    "EE31009": [
+        "CONTROL SYSTEM ENGINEERING",
+        false
+    ],
+    "EE31011": [
+        "POWER ELECTRONICS",
+        false
+    ],
+    "EE41001": [
+        "INDUSTRIAL INSTRUMENTATION",
+        false
+    ],
+    "EE41013": [
+        "DIGITAL SIGNAL PROCESSING",
+        false
+    ],
+    "EP60003": [
+        "PRODUCT DEVELOPMENT",
+        false
+    ],
+    "EP60007": [
+        "TECHNO-ENTREPRENEURIAL LEADERSHIP",
+        false
+    ],
+    "EP60021": [
+        "ENGINEERING B-PLAN DEVELOPMENT - 1",
+        false
+    ],
+    "EP60022": [
+        "TECHNOLOGY ENTREPRENEURSHIP",
+        false
+    ],
+    "EP60031": [
+        "ENTREPRENEURIAL EXIT STRATEGIES",
+        false
+    ],
+    "ES60004": [
+        "ENERGY MATERIALS",
+        false
+    ],
+    "ES60007": [
+        "ENERGY: POLICY AND GOVERNANCE",
+        false
+    ],
+    "ES61001": [
+        "CHARACTERIZATION AND ANALYSIS OF BIOMASS",
+        false
+    ],
+    "ES61007": [
+        "RENEWABLE ENERGY SOURCES NR224",
+        false
+    ],
+    "EV20001": [
+        "ENVIRONMENTAL SCIENCE",
+        false
+    ],
+    "GG21109": [
+        "ENGINEERING & ECONOMIC GEOLOGY",
+        false
+    ],
+    "HS00001": [
+        "PREPARATORY ENGLISH",
+        false
+    ],
+    "HS13001": [
+        "ENGLISH FOR COMMUNICATION",
+        false
+    ],
+    "HS20001": [
+        "ECONOMICS NR322",
+        false
+    ],
+    "HS20002": [
+        "GENERAL PSYCHOLOGY",
+        false
+    ],
+    "HS20003": [
+        "STATISTICS FOR ECONOMICS",
+        false
+    ],
+    "HS20005": [
+        "MICRO ECONOMICS-I NR224",
+        false
+    ],
+    "HS20007": [
+        "MACRO ECONOMICS-I",
+        false
+    ],
+    "HS30003": [
+        "SOCIOLOGY OF ARCHITECTURE",
+        false
+    ],
+    "HS30036": [
+        "INTERCULTURAL COMMUNICATION",
+        false
+    ],
+    "HS30068": [
+        "SYMBOLIC LOGIC",
+        false
+    ],
+    "HS30071": [
+        "APPLIED ORGANISATIONAL PSYCHOLOGY",
+        false
+    ],
+    "HS30073": [
+        "ENVIRONMENTAL SOCIOLOGY",
+        false
+    ],
+    "HS30074": [
+        "SCIENCE AND HUMANISM",
+        false
+    ],
+    "HS30079": [
+        "PUBLIC FINANCE AND POLICY NR322",
+        false
+    ],
+    "HS30085": [
+        "INDIAN ECONOMY",
+        false
+    ],
+    "HS30095": [
+        "GLOBALISATION AND CULTURE",
+        false
+    ],
+    "HS30097": [
+        "FINANCIAL INSTITUTIONS & MARKETS",
+        false
+    ],
+    "HS40007": [
+        "ECONOMETRIC ANALYSIS-II",
+        false
+    ],
+    "HS40072": [
+        "SOCIOLOGY OF  SCIENCE",
+        false
+    ],
+    "HS40091": [
+        "DERIVATIVES",
+        false
+    ],
+    "HS63002": [
+        "ENGLISH FOR TECHNICAL WRITING",
+        false
+    ],
+    "HS69011": [
+        "ENVIRONMENT AND WELLNESS",
+        false
+    ],
+    "IM21001": [
+        "ENGINEERING ECONOMY, COSTING AND ACCOUNTING NC242",
+        false
+    ],
+    "IM21003": [
+        "OPERATIONS RESEARCH-I",
+        false
+    ],
+    "IM31005": [
+        "QUALITY DESIGN AND CONTROL",
+        false
+    ],
+    "IM31007": [
+        "PRODUCTION PLANNING AND CONTROL",
+        false
+    ],
+    "IM31008": [
+        "LOGISTICS AND SUPPLY CHAIN MANAGEMENT",
+        false
+    ],
+    "IM31011": [
+        "DESIGN FOR MANUFACTURABILITY",
+        false
+    ],
+    "IM41001": [
+        "PRODUCT DEVELOPMENT",
+        false
+    ],
+    "IP60019": [
+        "CORPORATE AND INTERNATIONAL TAXATION",
+        false
+    ],
+    "IP60101": [
+        "JURISPRUDENCE (LEGAL METHODS, INDIAN LEGAL",
+        false
+    ],
+    "IP60103": [
+        "LAW OF CONTRACT - I",
+        false
+    ],
+    "IP60105": [
+        "LAW OF TORT AND CONSUMER PROTECTION LAW",
+        false
+    ],
+    "IP60107": [
+        "CONSTITUTIONAL LAW - I",
+        false
+    ],
+    "IP60109": [
+        "LAW OF PROPERTY",
+        false
+    ],
+    "IP60111": [
+        "FAMILY LAW",
+        false
+    ],
+    "IP60113": [
+        "CORPORATE LAW - I",
+        false
+    ],
+    "IP60115": [
+        "ADMINISTRATIVE LAW",
+        false
+    ],
+    "IP60117": [
+        "LAW OF CRIMES - II",
+        false
+    ],
+    "IP60119": [
+        "LAW OF PATENT - I",
+        false
+    ],
+    "IP60121": [
+        "PUBLIC INTERNATIONAL LAW",
+        false
+    ],
+    "IP60123": [
+        "TRADEMARK AND DESIGN",
+        false
+    ],
+    "IP60125": [
+        "LABOUR AND INDUSTRIAL LAWS NR224",
+        false
+    ],
+    "IP60127": [
+        "ALTERNATE DISPUTE RESOLUTION",
+        false
+    ],
+    "IP60129": [
+        "IP MANAGEMENT AND TECHNOLOGY TRANSFER",
+        false
+    ],
+    "IP60131": [
+        "OTHER FORMS OF IPR",
+        false
+    ],
+    "IP60163": [
+        "INTERNATIONAL INVESTMENT LAW",
+        false
+    ],
+    "IP61013": [
+        "FAMILY LAW II",
+        false
+    ],
+    "IP61015": [
+        "PRINCIPLES OF TAXATION LAW",
+        false
+    ],
+    "IP63101": [
+        "CONSTITUTIONAL LAW OF INDIA",
+        false
+    ],
+    "IP63103": [
+        "LEGAL RESEARCH METHODOLOGY",
+        false
+    ],
+    "IP63127": [
+        "INTERNATIONAL TRADE LAW",
+        false
+    ],
+    "IP63129": [
+        "PRINCIPLES OF CRIMINAL LAW AND JUSTICE",
+        false
+    ],
+    "IP63135": [
+        "COMPARATIVE PATENT LAW",
+        false
+    ],
+    "IP63143": [
+        "THEORIES OF CRIMINOLOGY AND PENOLOGY",
+        false
+    ],
+    "IP63149": [
+        "IP STRATEGY AND TECHNOLOGY TRANSFER",
+        false
+    ],
+    "IP63151": [
+        "MERGER ACQUISITION AND SPLIT UP LAWS",
+        false
+    ],
+    "IP63169": [
+        "LAW OF SEA, AIR AND SPACE",
+        false
+    ],
+    "IP63171": [
+        "ECONOMIC CRIMES",
+        false
+    ],
+    "MA00001": [
+        "PREPARATORY  MATHEMATICS I",
+        false
+    ],
+    "MA10001": [
+        "MATHEMATICS-I",
+        false
+    ],
+    "MA20101": [
+        "TRANSFORM CALCULUS",
+        false
+    ],
+    "MA20103": [
+        "PARTIAL DIFFERENTIAL EQUATIONS",
+        false
+    ],
+    "MA20105": [
+        "LINEAR ALGEBRA",
+        false
+    ],
+    "MA20107": [
+        "MATRIX ALGEBRA",
+        false
+    ],
+    "MA21007": [
+        "DESIGN & ANALYSIS OF ALGORITHMS",
+        false
+    ],
+    "MA30003": [
+        "LINEAR ALGEBRA",
+        false
+    ],
+    "MA31005": [
+        "REAL ANALYSIS",
+        false
+    ],
+    "MA31007": [
+        "MATHEMATICAL METHODS",
+        false
+    ],
+    "MA31009": [
+        "COMPUTER ORGANISATION & ARCHITECTURE",
+        false
+    ],
+    "MA31011": [
+        "OBJECT ORIENTED SYSTEMS DESIGN NC244",
+        false
+    ],
+    "MA31020": [
+        "REGRESSION AND TIME SERIES MODEL",
+        false
+    ],
+    "MA40003": [
+        "SYSTEMS PROGRAMMING",
+        false
+    ],
+    "MA40011": [
+        "FLUID MECHANICS NC243",
+        false
+    ],
+    "MA41007": [
+        "FUNCTIONAL ANALYSIS",
+        false
+    ],
+    "MA41009": [
+        "PROBABILITY AND STATISTICS",
+        false
+    ],
+    "MA41021": [
+        "PROGRAMMING LANGUAGES",
+        false
+    ],
+    "MA41031": [
+        "STOCHASTIC PROCESSES IN FINANCE",
+        false
+    ],
+    "MA51121": [
+        "GRAPH THEORY AND ALGORITHMS",
+        false
+    ],
+    "MA60017": [
+        "STATISTICAL METHODS NR322",
+        false
+    ],
+    "MA60061": [
+        "STATISTICAL TECHNIQUE & COMPUTER NR322",
+        false
+    ],
+    "MA60077": [
+        "COMPUTER PROGRAMMING",
+        false
+    ],
+    "MA61027": [
+        "CRYPTOGRAPHY AND NETWORK SECURITY",
+        false
+    ],
+    "ME10001": [
+        "MECHANICS",
+        false
+    ],
+    "ME20001": [
+        "DYNAMICS",
+        false
+    ],
+    "ME21101": [
+        "FLUID MECHANICS",
+        false
+    ],
+    "ME21103": [
+        "MECHANICS OF SOLIDS",
+        false
+    ],
+    "ME30005": [
+        "HEAT TRANSFER",
+        false
+    ],
+    "ME31007": [
+        "CASTING, FORMING AND WELDING S302",
+        false
+    ],
+    "ME31013": [
+        "MECHANICS OF SOLIDS",
+        false
+    ],
+    "ME40107": [
+        "AIR CONDITIONING",
+        false
+    ],
+    "ME40601": [
+        "SYSTEMS & CONTROL",
+        false
+    ],
+    "ME40701": [
+        "APPLIED THERMO-FLUIDS II",
+        false
+    ],
+    "MF40603": [
+        "COMPUTER INTEGRATED MANUFACTURING",
+        false
+    ],
+    "MF41601": [
+        "SOFT COMPUTING",
+        false
+    ],
+    "MI20101": [
+        "DEVELOPMENT OF MINERAL DEPOSITS",
+        false
+    ],
+    "MI21007": [
+        "ELEMENTS OF ROCK MECHANICS",
+        false
+    ],
+    "MI30013": [
+        "MINING MACHINERY",
+        false
+    ],
+    "MI31001": [
+        "UNDERGROUND COAL MINING",
+        false
+    ],
+    "MI31003": [
+        "UNDERGROUND METAL MINING",
+        false
+    ],
+    "MI31005": [
+        "VENTILATION AND CLIMATE CONTROL",
+        false
+    ],
+    "MI31007": [
+        "QUANTITATIVE DECISION MAKING",
+        false
+    ],
+    "MI40001": [
+        "ENVIRONMENTAL ENGINEERING",
+        false
+    ],
+    "MI50009": [
+        "OIL AND GAS WELL TESTING AND ENHANCED OIL",
+        false
+    ],
+    "MI60045": [
+        "COAL PREPARATION",
+        false
+    ],
+    "MT30001": [
+        "MATERIALS ENGINEERING",
+        false
+    ],
+    "NA21101": [
+        "HYDROSTATICS AND STABILITY",
+        false
+    ],
+    "NA31001": [
+        "ELEMENTS OF OCEAN ENGINEERING",
+        false
+    ],
+    "NA31003": [
+        "MARINE PRODUCTION AND PLANNING",
+        false
+    ],
+    "NA31005": [
+        "RESISTANCE AND PROPULSION",
+        false
+    ],
+    "NA31007": [
+        "VIBRATION OF FLOATING STRUCTURES",
+        false
+    ],
+    "PH00001": [
+        "PREPARATORY PHYSICS",
+        false
+    ],
+    "PH11001": [
+        "PHYSICS",
+        false
+    ],
+    "PH20003": [
+        "PHYSICS-II S302",
+        false
+    ],
+    "PH41004": [
+        "OPTICS",
+        false
+    ],
+    "PH41017": [
+        "CONDENSED MATTER PHYSICS-II",
+        false
+    ],
+    "PH41019": [
+        "NUCLEAR AND PARTICLE PHYSICS -II",
+        false
+    ],
+    "PH41023": [
+        "STATISTICAL PHYSICS-I",
+        false
+    ],
+    "RD30002": [
+        "TRANSFER AND MANAGEMENT OF RURAL TECHNOLOGY S302",
+        false
+    ],
+    "RT30019": [
+        "SCI AND TECH. RUBBER & RUBBER LIKE",
+        false
+    ]
+}
