@@ -858,5 +858,21 @@
     "RT30019": [
         "SCI AND TECH. RUBBER & RUBBER LIKE",
         false
+    ],
+    "MA20101": [
+        "TRANSFORM CALCULUS",
+        false
+    ],
+    "PH20003": [
+        "PHYSICS 2",
+        false
+    ],
+    "EC21008": [
+        "ANALOG ELECTRONIC CIRCUITS",
+        false
+    ],
+    "EE21002": [
+	"ELECTRICAL MACHINES",
+	false
     ]
 }
