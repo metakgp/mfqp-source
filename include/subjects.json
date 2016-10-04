@@ -75,6 +75,14 @@
         "MICROBIOLOGY",
         false
     ],
+    "BT21101": [
+        "BIOCHEMISTRY",
+	false
+    ],
+    "BT21105": [
+        "BIOCHEMICAL REACTION ENGINEERING AND BIOENERGETICS",
+	false
+    ],	
     "CE20006": [
         "WATER RESOURCES ENGG.",
         false
