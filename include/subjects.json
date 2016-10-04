@@ -870,5 +870,13 @@
     "PH20003": [
         "PHYSICS 2",
         false
+    ],
+    "EC21008": [
+        "ANALOG ELECTRONIC CIRCUITS",
+        false
+    ],
+    "EE21002": [
+	"ELECTRICAL MACHINES",
+	false
     ]
 }
