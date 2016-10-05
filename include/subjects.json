@@ -77,12 +77,12 @@
     ],
     "BT21101": [
         "BIOCHEMISTRY",
-	false
+        false
     ],
     "BT21105": [
         "BIOCHEMICAL REACTION ENGINEERING AND BIOENERGETICS",
-	false
-    ],	
+        false
+    ],
     "CE20006": [
         "WATER RESOURCES ENGG.",
         false
@@ -869,14 +869,6 @@
     ],
     "RT30019": [
         "SCI AND TECH. RUBBER & RUBBER LIKE",
-        false
-    ],
-    "MA20101": [
-        "TRANSFORM CALCULUS",
-        false
-    ],
-    "PH20003": [
-        "PHYSICS 2",
         false
     ]
 }
