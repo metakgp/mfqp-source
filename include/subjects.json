@@ -275,6 +275,10 @@
         "NETWORK THEORY",
         false
     ],
+    "EC21008": [
+        "ANALOG ELECTRONIC CIRCUITS",
+        false
+    ],
     "EC21101": [
         "BASIC ELECTRONICS",
         false
@@ -321,6 +325,10 @@
     ],
     "EE11001": [
         "ELECTRICAL TECHNOLOGY",
+        false
+    ],
+    "EE21002": [
+        "ELECTRICAL MACHINES",
         false
     ],
     "EE21101": [
@@ -381,6 +389,10 @@
     ],
     "ES61007": [
         "RENEWABLE ENERGY SOURCES NR224",
+        false
+    ],
+    "ET60015": [
+        "EFFECTIVE LEARNING TECHNIQUES FOR PROF. DEVELOPMENT",
         false
     ],
     "EV20001": [
@@ -870,21 +882,5 @@
     "RT30019": [
         "SCI AND TECH. RUBBER & RUBBER LIKE",
         false
-    ],
-    "MA20101": [
-        "TRANSFORM CALCULUS",
-        false
-    ],
-    "PH20003": [
-        "PHYSICS 2",
-        false
-    ],
-    "EC21008": [
-        "ANALOG ELECTRONIC CIRCUITS",
-        false
-    ],
-    "EE21002": [
-	"ELECTRICAL MACHINES",
-	false
     ]
 }
