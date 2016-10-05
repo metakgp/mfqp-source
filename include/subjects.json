@@ -870,5 +870,13 @@
     "RT30019": [
         "SCI AND TECH. RUBBER & RUBBER LIKE",
         false
+    ],
+    "MA20101": [
+        "TRANSFORM CALCULUS",
+        false
+    ],
+    "PH20003": [
+        "PHYSICS 2",
+        false
     ]
 }
