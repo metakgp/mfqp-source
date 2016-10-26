@@ -83,16 +83,13 @@
         "BIOCHEMICAL REACTION ENGINEERING AND BIOENERGETICS",
         false
     ],
-    ],
         "BT21002": [
         "CELL AND MOLECULAR BIOLOGY",
         false
     ],
-    ],
         "BT31006": [
         "BIOINFORMATICS",
         false
-    ],
     ],
         "BT31014": [
         "IMMUNOLOGY",
@@ -101,7 +98,6 @@
         "BT31009": [
         "GENETICS",
         false
-    ],
     ],
         "BT31011": [
         "ENVIRONMENTAL BIOTECHNOLOGY",
