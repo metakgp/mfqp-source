@@ -103,6 +103,22 @@
         "ENVIRONMENTAL BIOTECHNOLOGY",
         false
     ],
+        "BT40009": [
+        "BIOPROCESS TECHNOLOGY",
+        false
+    ],
+        "BT41012": [
+        "DOWNSTREAM PROCESSING",
+        false
+    ],
+        "BT41014": [
+        "METABOLIC ENGINEERING",
+        false
+    ],
+        "BT41022": [
+        "NEUROPHYSIOLOGY",
+        false
+    ],
     "CE20006": [
         "WATER RESOURCES ENGG.",
         false
