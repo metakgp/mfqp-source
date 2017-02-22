@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'fileutils'
 require 'dotenv'
 Dotenv.load
 
@@ -10,6 +11,9 @@ subjects = JSON.parse(File.read("./subjects.json"))
 departments = JSON.parse(File.read("./departments.json"))
 mfqp_json_path = ARGV[0].to_s
 mfqp_data = JSON.parse(File.read(mfqp_json_path))
+
+FileUtils.mkdir_p "unidentified"
+unidentified_files_path = "./unidentified/"
 
 # subjects not there in the subjects.json file
 unidentified_subjects = [ ]
@@ -32,16 +36,25 @@ for i in ARGV
 
 		department_code = match_obj[4]
 
+		if departments[department_code] == nil
+			puts "ERROR: DEPT: #{department_code}: Dept code not found in departments.json"
+			unidentified_subjects.push(filename)
+			FileUtils.cp filename, "#{unidentified_files_path}#{File.basename filename}"
+			next
+		end
+
+		if subjects[subject_code] == nil
+			# this file name has a subject code which is not there in the subjects.json
+			# file. Probably have to add a node in that file.
+			puts "ERROR: SUBJECT: #{filename}: subject code not found in subjects.json"
+			unidentified_subjects.push(filename)
+			FileUtils.cp filename, "#{unidentified_files_path}#{File.basename filename}"
+			next
+		end
+
 		department = departments[department_code].downcase
 		paper = subjects[subject_code][0].downcase
 
-		if paper == nil
-			# this file name has a subject code which is not there in the subjects.json
-			# file. Probably have to add a node in that file.
-			puts "#{filename} has a subject code that's not there in subjects.json"
-			unidentified_subjects.push(filename)
-			next
-		end
 
 
 		# upload the file to drive
@@ -85,5 +98,6 @@ if unidentified_subjects.length > 0
 	puts "Check the file failed.txt for a list of all the PDF names with unidentified subject codes"
 	puts "Add these subject codes to the subjects.json file, and run this script again."
 	puts "Be sure to remove all the PDF files that have already been uploaded."
+	puts "Files which could not be processed have been copied to ./unidentified"
 end
 
