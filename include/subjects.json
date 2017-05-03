@@ -910,5 +910,21 @@
     "HS30066": [
         "VISUAL COMMUNICATION",
         false
+    ],
+    "CS60088": [
+        "FOUNDATIONS OF CRYPTOGRAPHY",
+        false
+    ],
+    "ME60430": [
+        "MECHANICS OF HUMAN BODY",
+        false
+    ],
+    "ME60404": [
+        "LUBRICATION AND ROTOR DYNAMICS",
+        false
+    ],
+    "ME60428": [
+        "VIBRATION OF STRUCTURES",
+        false
     ]
 }
