@@ -5854,5 +5854,21 @@
   "IP60102": [
     "COPYRIGHT LAW",
     true
+  ],
+  "IM41082": [
+    "OPERATIONS RESEARCH",
+    true
+  ],
+  "HS30034": [
+    "MANAGERIAL ECONOMICS",
+    true
+  ],
+  "HS30048": [
+    "GERMAN",
+    true
+  ],
+  "HS30047": [
+    "FRENCH",
+    true
   ]
 }
