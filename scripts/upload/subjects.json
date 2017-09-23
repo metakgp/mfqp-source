@@ -5870,5 +5870,17 @@
   "HS30047": [
     "FRENCH",
     true
+  ],
+  "CR61023": [
+    "SAFETY ISSUES WITH CRYOGENIC FLUIDS",
+    true
+  ],
+  "HS30033": [
+    "ECONOMETRIC ANALYSIS",
+    true
+  ],
+  "MI39019": [
+    "MINING MACHINERY LAB",
+    true
   ]
 }
