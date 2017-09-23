@@ -36,6 +36,8 @@ for i in ARGV
 
 		department_code = match_obj[4]
 
+                paper_name = "#{match_obj[1]}-#{match_obj[2]}-#{match_obj[3]}-#{match_obj[4]}#{match_obj[5]}"
+
 		if departments[department_code] == nil
 			puts "ERROR: DEPT: #{department_code}: Dept code not found in departments.json"
 			unidentified_subjects.push(filename)
@@ -80,7 +82,7 @@ for i in ARGV
 
 		link = preview_url.chomp
 
-		paperObj = { "Department" => department, "Semester" => semester, "Paper" => paper, "Link" => link, "Year" => year.to_s }
+		paperObj = { "Department" => department, "Semester" => semester, "Paper" => paper, "Link" => link, "Year" => year.to_s, "Internal" => paper_name }
 
 		puts paperObj
 
