@@ -91,7 +91,7 @@ for i in ARGV
 end
 
 File.delete(mfqp_json_path)
-File.open(mfqp_json_path, "w") { |file| file.write(JSON.generate(mfqp_data)) }
+File.open(mfqp_json_path, "w") { |file| file.write(JSON.pretty_generate(mfqp_data)) }
 
 if unidentified_subjects.length > 0
 	File.open("failed.txt", "w") { |file| file.write(unidentified_subjects.join("\n")) }
