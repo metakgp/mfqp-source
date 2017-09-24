@@ -5888,7 +5888,19 @@
     true
   ],
   "HS20002": [
-    "General Psychology",
+    "GENERAL PSYCHOLOGY",
+    true
+  ],
+  "CL60019": [
+    "CARBON CYCLE AND GLOBAL CLIMATE CHANGE",
+    true
+  ],
+  "BT41020": [
+    "IMMUNOLOGY",
+    true
+  ],
+  "IM60068": [
+    "GAME THEORY AND APPLICATIONS",
     true
   ],
   "HS60063": [
