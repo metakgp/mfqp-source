@@ -3915,6 +3915,10 @@
     "ROCKET PROPULSION",
     false
   ],
+  "AE40009": [
+    "ROCKET PROPULSION",
+    false
+  ],
   "HS50010": [
     "INPUT-OUTPUT ECONOMICS",
     false
@@ -5933,6 +5937,18 @@
   ],
   "HS20018": [
     "SANSKRIT AND HERITAGE",
+    true
+  ],
+  "ME39604": [
+    "MACHINE TOOLS AND MACHINING LAB",
+    true
+  ],
+  "HS30074": [
+    "SCIENCE AND HUMANISM",
+    true
+  ],
+  "ET60002": [
+    "EDUCATIONAL DATA ANALYTICS",
     true
   ]
 }
