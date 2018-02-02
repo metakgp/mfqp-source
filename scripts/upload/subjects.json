@@ -5954,5 +5954,9 @@
   "ME60936": [
     "ENGINEERING SOFTWARE",
     true
+  ],
+  "EC60095": [
+    "ARCHITECTURAL DESIGN OF ICS",
+    true
   ]
 }
