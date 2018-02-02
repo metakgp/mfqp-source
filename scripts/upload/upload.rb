@@ -22,7 +22,7 @@ unidentified_subjects = [ ]
 filename_regex = /(mid|end)-(spring|autumn)-([0-9]{4})-([A-Z]{2})([0-9]{5}).pdf/
 uploading_result_regex = /Id: (.*)/
 
-for i in ARGV
+for i in ARGV[1..-1]
 	filename = i
 	match_obj = filename_regex.match(filename)
 	if not match_obj
