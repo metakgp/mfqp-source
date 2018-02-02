@@ -5890,5 +5890,33 @@
   "HS20002": [
     "General Psychology",
     true
+  ],
+  "HS60063": [
+    "BUSINESS ENVIORNMENT AND POLICY",
+    true
+  ],
+  "ME40603": [
+    "APPLIED THERMO FLUIDS-II",
+    true
+  ],
+  "ME60097": [
+    "MODERN MANUFACTURING PROCESSES",
+    true
+  ],
+  "ME60401": [
+    "APPLIED ELASTICITY",
+    true
+  ],
+  "NA60031": [
+    "MECHANICS OF FLOATING BODIES",
+    true
+  ],
+  "BT60001": [
+    "BIOSEPARATION TECHNOLOGY",
+    true
+  ],
+  "NA61005": [
+    "ANALYSIS OF OCEAN STRUCTURES",
+    true
   ]
 }
