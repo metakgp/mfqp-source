@@ -2,7 +2,8 @@
 # something like wget -mr, mirroring the complete site with directory structure
 # as well
 #
-# CLI Parameters: MFQP data.json's path must be the first and only parameter
+# CLI Parameters: MFQP data.json's path must be the first parameter. The year
+# directory inside which the script is being run should be the second parameter
 # 
 # Run this script from inside 10.17.32.9/peqp/*
 # This script will walk through all the PDF files found at one directory level
@@ -16,7 +17,8 @@ require 'json'
 require 'uri'
 
 mfqp_json_path = ARGV[0]
-data = JSON.parse(File.read(mfqp_json_path))
+mfqp_json_text = File.read(mfqp_json_path)
+data = JSON.parse(mfqp_json_text)
 
 list_files = Dir["./**/*.pdf"]
 
@@ -32,15 +34,19 @@ end
 
 list_files.each do |file_name|
 	
-	year = 2016
+	year = ARGV[1].to_s
 	root_dir, semester, department, paper = file_name.split('/')
-	file_link = file_name.sub root_dir, "http://10.17.32.9/peqp/2016"
+	file_link = file_name.sub root_dir, "http://10.17.32.9/peqp/#{year}"
 	file_link = URI.encode file_link
 	paper.sub! ".pdf", ""
 
-	data.push(construct_obj(department, semester, paper, file_link, year))
+    if !mfqp_json_text.index(file_link)
+        data.push(construct_obj(department, semester, paper, file_link, year))
+        puts "Pushed object for #{paper} in #{department} and #{semester}"
+    else
+        puts "#{file_name} already exists"
+    end
 	
-	puts "Pushed object for #{paper} in #{department} and #{semester}"
 end
 File.delete(mfqp_json_path)
 File.open(mfqp_json_path, "w") { |file| file.write(JSON.pretty_generate(data)) }
